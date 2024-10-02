@@ -15,7 +15,7 @@ func main() {
 		json.NewEncoder(w).Encode(resposta)
 	})
 
-	porta := ":3000"
+	porta := ":9090"
 	fmt.Printf("Servidor iniciado na porta %s\n", porta)
 	if err := http.ListenAndServe(porta, nil); err != nil {
 		fmt.Printf("Erro ao iniciar o servidor: %v\n", err)
