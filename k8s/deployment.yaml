@@ -16,3 +16,5 @@ spec:
         image: joaofstn323/teste-app-argocd:latest
         ports:
         - containerPort: 9090
+
+        
