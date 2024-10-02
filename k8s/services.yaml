@@ -4,10 +4,9 @@ metadata:
   name: goapp
   namespace: goapp
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: goapp
   ports:
     - port: 80
       targetPort: 9090
-      nodePort: 30000
