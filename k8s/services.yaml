@@ -4,7 +4,7 @@ metadata:
   name: goapp
   namespace: goapp
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: goapp
   ports:
