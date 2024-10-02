@@ -12,7 +12,7 @@ spec:
         app: goapp
     spec:
       containers:
-      - name: joaofstn323/teste-app-argocd
-        image: joaofstn323/teste-app-argocd
+      - name: goapp
+        image: goapp
         ports:
         - containerPort: 9090
