@@ -11,7 +11,7 @@ func main() {
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusOK)
 		
-		resposta := map[string]string{"mensagem": "Requisição bem-sucedida"}
+		resposta := map[string]string{"mensagem": "Requisição bem-sucedida", "status": "ok"}
 		json.NewEncoder(w).Encode(resposta)
 	})
 
