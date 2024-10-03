@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: joaofstn323/teste-app-argocd
-  newTag: b2de84b48391b3a6736668c3260c620e12e66d07
+  newTag: c1b5543904e858843b52490dbaedf72699ab8885
